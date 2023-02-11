@@ -1,0 +1,55 @@
+body {
+
+    background-image: url(../images/pikist.jpg);
+    /* background-image: url(../images/Desert.jpg); */
+    height: 100%;
+    /* width: 100%; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    
+}
+
+form {
+    width: 300px;
+    min-width: 300px;
+    max-width: 300px;
+    height: 350px;
+    min-height: 350px;
+    max-height: 500px;
+    position: absolute;
+    top: 20%;
+    bottom: 70%;
+    border-radius: 15px;
+    box-sizing: border-box;
+    background-color: rgba(245, 245, 245, 0.425);
+    right: 40%;
+    left: 20%;
+   color: aliceblue;
+   padding-left: 20px;
+   
+}
+input[type="email" ],[ type="password"], [type="text"] {
+    position:relative; background: none;border: none;
+    border-bottom:2px rgb(3, 47, 245) solid; width: 250px;
+      height: 30px; outline: none;
+}
+
+input[type="email" ]{position: relative;top: 20px; }
+input[type="password" ]{position: relative;top: 40px; }
+button{ position: relative;
+top: 80px;  color:white ; background-color: blue; 
+border-radius: 10px; right: 70%; left: 3px; padding-left:100px ;
+ padding-right:100px ;}
+p{ position: relative;
+top: 90px; font-size:11px ; color: black;}
+h2{
+    position: relative; text-align: center; color: black;
+}
+p:hover{
+ color: blue;
+}
+button:hover{
+    padding-left:90px ;padding-right:90px ; position: relative; left:10px ;
+}
